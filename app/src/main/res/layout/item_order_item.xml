@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_background"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="top"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="false"
+    android:paddingTop="14dp"
+    android:paddingBottom="16dp">
+
+
+    <FrameLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/frameLayout"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriptionMain"
+                android:textColor="@color/primary_text_default_material_light"
+                android:textIsSelectable="false"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif"
+                android:layout_weight="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/price"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif"
+                android:layout_weight="0"
+                android:gravity="right"
+                android:maxLines="1"
+                android:lines="1"
+                android:layout_marginLeft="8dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionSecondary"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            android:lineSpacingExtra="2sp"
+            android:fontFamily="sans-serif" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

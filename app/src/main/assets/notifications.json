@@ -1,0 +1,42 @@
+[
+  {
+    "id":0,
+    "type":0,
+    "destination":{
+      "table":1,
+      "seat":"a"
+    },
+    "description":"Go to",
+    "orderId":0
+  },
+  {
+    "id":1,
+    "type":1,
+    "destination":{
+      "table":2,
+      "seat":"a"
+    },
+    "description":"Bring cutlery",
+    "orderId":1
+  },
+  {
+    "id":2,
+    "type":2,
+    "destination":{
+      "table":1,
+      "seat":"b"
+    },
+    "description":"Call taxi",
+    "orderId":2
+  },
+  {
+    "id":3,
+    "type":3,
+    "destination":{
+      "table":1,
+      "seat":"a"
+    },
+    "description":"Go to kitchen",
+    "orderId":0
+  }
+]

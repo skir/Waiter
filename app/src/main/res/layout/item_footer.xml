@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:background="@android:color/white"
+    android:paddingBottom="16dp"
+    android:clickable="true"
+    android:gravity="center">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/view"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/discount"
+        android:id="@+id/textView"
+        android:layout_below="@+id/view"
+        android:layout_alignLeft="@+id/view"
+        android:layout_alignStart="@+id/view"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tips"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12.50"
+        android:id="@+id/discount"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignRight="@+id/view"
+        android:layout_alignEnd="@+id/view"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12.50"
+        android:id="@+id/tips"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignRight="@+id/discount"
+        android:layout_alignEnd="@+id/discount"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="$12.50"
+        android:id="@+id/pay"
+        android:layout_below="@+id/tips"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical|right"
+        android:layout_marginTop="16dp"
+        android:textSize="22sp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:background="@drawable/dark_button"
+        android:textColor="@android:color/white"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/print_recipe"
+        android:id="@+id/print_recipe"
+        android:textSize="22sp"
+        android:layout_below="@+id/pay"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:background="@drawable/gray_button" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/add_order"
+        android:id="@+id/add_order"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/print_recipe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/light_button"
+        android:clickable="true"
+        android:gravity="center" />
+
+</RelativeLayout>

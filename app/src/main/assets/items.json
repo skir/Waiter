@@ -1,0 +1,20 @@
+[
+  {
+    "id":1,
+    "name":"soup",
+    "price":12,
+    "sub_items":[]
+  },
+  {
+    "id":2,
+    "name":"wine",
+    "price":10,
+    "sub_items":[]
+  },
+  {
+    "id":3,
+    "name":"tea",
+    "price":5,
+    "sub_items":[]
+  }
+]

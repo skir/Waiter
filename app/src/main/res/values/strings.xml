@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Waiter</string>
+    <string name="add_item">Add Item</string>
+    <string name="discount">Discount</string>
+    <string name="Tips">Tips</string>
+    <string name="print_recipe">Print recipe</string>
+    <string name="add_order">Add order</string>
+    <string name="price" formatted="false">$%.2f</string>
+    <string name="done">Done</string>
+    <string name="card">Credit card</string>
+    <string name="cash">Cash</string>
+    <string name="payment">Payment</string>
+    <string name="not_enough">Not Enough</string>
+    <string name="give">Give</string>
+    <string name="give_receipt">Please give a receipt to the visitor</string>
+    <string name="notifications">Notifications</string>
+    <string name="order">Order</string>
+</resources>
